@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+ingesta/
+*.log
+.env
+*.csv
+!telco_churn.csv
+*.pkl
+!model_registry/*.pkl
