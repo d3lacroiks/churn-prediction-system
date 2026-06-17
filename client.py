@@ -33,5 +33,5 @@ data = {
     "NumExtraServices": 0
 }
 
-resp = requests.post('http://localhost:5000/predict', json=data)
+resp = requests.post('https://churn-api-d7cg.onrender.com/predict', json=data)
 print("Respuesta:", resp.json())
